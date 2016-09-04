@@ -1826,10 +1826,7 @@
 	}
 
 	header.major {
-		width: -moz-max-content;
-		width: -webkit-max-content;
-		width: -ms-max-content;
-		width: max-content;
+		width:100%;
 		margin-bottom: 2em;
 	}
 
@@ -1848,7 +1845,7 @@
 			}
 
 		header.major > p {
-			font-size: 0.7em;
+			font-size: 1em;
 			font-weight: 600;
 			letter-spacing: 0.25em;
 			margin-bottom: 0;
