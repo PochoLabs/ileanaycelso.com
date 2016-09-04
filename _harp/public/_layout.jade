@@ -16,7 +16,7 @@ html
 		#wrapper
 			// Header
 			header#header.alt
-				a.logo(href='#page-top')
+				a.logo(href='#banner')
 					strong Ileana
 					span &
 					strong Celso
@@ -26,15 +26,15 @@ html
 			nav#menu
 				ul.links
 					li
-						a(href='#page-top') Home
+						a.scrolly(href='#banner') Home
 					li
-						a(href='#about') Who We Are 
+						a.scrolly(href='#main') Our Work 
 					li
-						a(href='#media') Generic
+						a.scrolly(href='#about') About
 
 				ul.actions.vertical
 					li
-						a.button.special.fit(href='#') Contact Us 
+						a.button.special.fit.scrolly(href='#contact') Contact Us 
 			// Banner
 			section#banner.major
 				.inner
@@ -91,7 +91,7 @@ html
 								a.link(href='#') United We Dream Congress
 
 				// Two
-				section#two
+				section#about
 					.inner
 						header.major
 							h2 About Us
@@ -114,7 +114,7 @@ html
 			section#contact
 				.inner
 					section
-						form(method='post', action='#')
+						form(method='post', action='//formspree.io/ileanacelso@gmail.com')
 							.field.half.first
 								label(for='name') Name
 								input#name(type='text', name='name')
@@ -134,43 +134,26 @@ html
 							.contact-method
 								span.icon.alt.fa-envelope
 								h3 Email
-								a(href='#') information@untitled.tld
+								a(href='mailto:ileanacelso@gmail.com') ileanacelso@gmail.com
 						section
 							.contact-method
 								span.icon.alt.fa-phone
 								h3 Phone
-								span (000) 000-0000 x12387
+								span (602) 423-9066
 						section
 							.contact-method
-								span.icon.alt.fa-home
-								h3 Address
-								span
-									| 1234 Somewhere Road #5432
-									br
-									| 										Nashville, TN 00000
-									br
-									| 										United States of America
+								span.icon.alt.fa-instagram
+								h3 Instagram
+								a(href="http://instagram.com/ileanaycelso") @ileanaycelso
 			// Footer
 			footer#footer
 				.inner
 					ul.icons
 						li
-							a.icon.alt.fa-twitter(href='#')
-								span.label Twitter
-						li
-							a.icon.alt.fa-facebook(href='#')
-								span.label Facebook
-						li
 							a.icon.alt.fa-instagram(href='#')
 								span.label Instagram
-						li
-							a.icon.alt.fa-github(href='#')
-								span.label GitHub
-						li
-							a.icon.alt.fa-linkedin(href='#')
-								span.label LinkedIn
 					ul.copyright
-						li © Untitled
+						li © 2014
 						li
 							| Design: 
 							a(href='https://html5up.net') HTML5 UP
